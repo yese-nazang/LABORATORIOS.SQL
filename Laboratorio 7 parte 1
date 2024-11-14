@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOpyEYewSqmEszF/jmfmpBy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yese-nazang/LABORATORIOS.SQL/blob/main/Laboratorio%207%20parte%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Laboratorio 7. Ejercicio de práctica 2**\n",
+        "\n",
+        "**A. Crear un array de números del 1 al 10 y mostrar la suma, la media, y el valor máximo.**"
+      ],
+      "metadata": {
+        "id": "Jg2i0SKy2FmY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bM8m15KC1h_2",
+        "outputId": "25775a89-80e1-4b40-fe10-b1b87ee11d9f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Array: [ 1  2  3  4  5  6  7  8  9 10]\n",
+            "suma: 55\n",
+            "media: 5.5\n",
+            "maximo: 10\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "array = np.arange(1, 11)\n",
+        "print(\"Array:\", array)\n",
+        "print(\"suma:\", array.sum())\n",
+        "print(\"media:\", array.mean())\n",
+        "print(\"maximo:\", array.max())\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "cXPLhRCc2EL-"
+      }
+    }
+  ]
+}
